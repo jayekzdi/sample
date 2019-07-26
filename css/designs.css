@@ -1,0 +1,177 @@
+.carousel{
+  width: 1350px;
+}
+body{
+overflow-x: hidden;
+}
+.brand{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.navbar{
+    position: relative;
+}
+.btn-log{
+	color:black;
+}
+.btn-log1{
+	color:white;
+	font-size:20px;
+}
+.img-url{
+	width:800px;
+	padding: 0px;
+	
+}
+.login{
+	background:#3f3f3f;
+}
+.log-para{
+	color:#3f3f3f;
+}
+.logjum{
+	margin-top:150px;
+}
+.logo{
+	width:300px;
+	height:88px;
+	margin-left:335px;
+	margin-top:-20px;
+}
+.separator{
+	font-size:10px;
+}
+.lp{
+margin-top:15px;
+}
+.res-color{
+	font-family: century gothic;
+}
+/**{
+	border: 1px solid black;
+}*/
+.jm{
+margin-top:10px;
+}
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.txtstep{
+	font-size: 10px;
+	margin-left:-10px;
+}
+.adm-menu{
+width: 300px; 
+	 text-align: center; 
+	 background-color:#d9d9d9; 
+	 color:white; 
+	 font-family: "century gothic";
+}
+.menu-label{
+	font-family: brush script std;
+	font-size: 30px;
+}
+.fa{
+	font-size: 40px;
+	color:white;	
+	margin-left:5px;
+}
+.tag{
+	text-align: center;
+	margin-top:100px;
+	clear: both;
+}
+.footnav{
+	color: white;
+}
+.about-img{
+  width: 70%;
+  height: 70%;
+}
+.about-img1{
+  width: 50%;
+  height: 50%;
+  margin-top:5px;
+}
+.about-img2{
+  width: 50%;
+  height: 50%;
+  margin-top:-5px;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+.header1{
+  background-image: url("../img/wall3.jpg");
+  padding:40px 0px 260px 0px;
+  margin-top: 20px;
+  color: white;
+}
+.header1 h1{
+  font-family: brush script std;
+  color: #
+}
+.header1 p{
+  font-family:century gothic;
+  font-size:20px;
+}
+.divider{
+  background-image: url("../img/divided2.png");  
+   background-repeat:no-repeat;
+}

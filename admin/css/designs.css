@@ -1,0 +1,71 @@
+
+.brand{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px !important;  /* 50% of your logo width */
+    display: block;
+}
+.navbar{
+    position: relative;
+}
+.btn-log{
+	color:black;
+}
+.btn-log1{
+	color:white;
+	font-size:20px;
+}
+.img-url{
+	width:800px;
+	padding: 0px;
+	
+}
+.login{
+	background:#3f3f3f;
+}
+.log-para{
+	color:#3f3f3f;
+}
+.logjum{
+	margin-top:150px;
+}
+.logo{
+	width:300px;
+	height:88px;
+	margin-left:335px;
+	margin-top:-20px;
+}
+.separator{
+	font-size:10px;
+}
+.lp{
+margin-top:15px;
+}
+.res-color{
+	font-family: century gothic;
+}
+/**{
+	border: 1px solid black;
+}*/
+.jm{
+margin-top:10px;
+}
+/* For Firefox */
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+/* Webkit browsers like Safari and Chrome */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.txtstep{
+	font-size: 10px;
+	margin-left:-10px;
+}
+.notif-footer{
+	margin-top: 5px;
+	text-align: center;
+	border: solid 1px gray;
+}

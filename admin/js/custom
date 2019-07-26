@@ -1,0 +1,4 @@
+$('#login-show').click(function(){
+	$('#login-show').css('display','none');
+	$(#register-hide).show();
+})
